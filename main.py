@@ -203,7 +203,7 @@ def main():
 
     # get template
     temp = {}
-    with open('templatescsv.csv') as p_file:
+    with open('templates.csv') as p_file:
         reader = csv.DictReader(p_file)
         for row in reader:
             if row['task'] == args.datasetname:

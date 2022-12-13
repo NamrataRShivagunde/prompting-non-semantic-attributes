@@ -1,6 +1,9 @@
 # prompting-non-semantic-attributes 
 
-The code is to load SuperGlue dtasets and evaluate them on OPT for specified template
+The code is to load SuperGlue datasets and evaluate them on OPT for specified template.
+Currently the code supports 
+Dataset - RTE
+Model - OPT-30b and GPT-3
 
 Install the libraries by using
 
